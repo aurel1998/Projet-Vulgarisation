@@ -237,27 +237,196 @@ Le site **facilite le dialogue** entre :
 
 ---
 
-## 5. Points Techniques pour les Enseignants
+## 5. Support et Mode Opératoire
 
-### 5.1 Accès et Compatibilité
+### 5.1 Accès au Site
+
+**Lien principal** : https://projet-vulgarisation.vercel.app
+
+Le site est **accessible 24/7** sans inscription ni authentification. Il fonctionne sur tous les appareils (ordinateur, tablette, smartphone) et tous les navigateurs modernes.
+
+### 5.2 Mode Opératoire pour les Enseignants
+
+#### Étape 1 : Présentation du Site (5-10 minutes)
+
+**Objectif** : Faire découvrir l'outil aux élèves
+
+**Actions** :
+1. Projeter le site sur un écran ou tableau blanc interactif
+2. Présenter la page d'accueil et ses sections principales
+3. Montrer rapidement une mission (exemple : Mission 1 "Nettoie tes données")
+4. Expliquer l'objectif : découvrir le BUT SD de manière interactive
+
+**Support visuel** : Utiliser la page d'accueil comme support de présentation
+
+#### Étape 2 : Navigation et Exploration (20-30 minutes)
+
+**Objectif** : Permettre aux élèves d'explorer le site de manière autonome
+
+**Actions** :
+1. Distribuer le lien du site aux élèves (via ENT, QR code, ou tableau)
+2. Laisser les élèves naviguer librement
+3. Encourager à :
+   - Faire au moins 2 missions
+   - Utiliser le simulateur de parcours
+   - Consulter la page "Débouchés"
+   - Tester le chatbot
+
+**Support** : Le site est auto-explicatif avec des instructions claires dans chaque section
+
+#### Étape 3 : Utilisation du Simulateur (10-15 minutes)
+
+**Objectif** : Aider les élèves à se projeter dans un parcours personnalisé
+
+**Mode opératoire** :
+1. Accéder à la page "Simulateur" (lien dans la navbar)
+2. Répondre aux 3 questions :
+   - Type de bac (Général / Technologique)
+   - Centre d'intérêt (Sport / Réseaux / Environnement / Marketing)
+   - Préférence d'apprentissage (Projets / Théorie / Mix)
+3. Consulter les recommandations personnalisées
+4. Noter les missions recommandées et les métiers suggérés
+
+**Support** : Interface intuitive avec boutons clairs et feedback immédiat
+
+#### Étape 4 : Réalisation des Missions (30-45 minutes)
+
+**Objectif** : Expérimenter concrètement les compétences du BUT SD
+
+**Mode opératoire pour chaque mission** :
+
+**Mission 1 - "Nettoie tes données"** :
+1. Accéder à `/missions/1` ou cliquer sur la mission dans le hub
+2. Observer les erreurs dans le tableau (doublons, valeurs manquantes, incohérences)
+3. Cliquer sur "Corriger" pour chaque erreur détectée
+4. Atteindre 100% de qualité des données
+5. Lire le feedback pédagogique à la fin
+
+**Mission 2 - "Qui va gagner le match ?"** :
+1. Accéder à `/missions/2`
+2. Utiliser les sliders pour modifier les statistiques des équipes
+3. Observer l'impact sur le score de prédiction
+4. Répondre au quiz de compréhension
+5. Visualiser les graphiques générés
+
+**Mission 3 - "Netflix dans ta tête"** :
+1. Accéder à `/missions/3`
+2. Sélectionner exactement 3 goûts (tags)
+3. Consulter les recommandations de films
+4. Comprendre le système de scoring basé sur la similarité
+
+**Mission 4 - "Parle en graphiques"** :
+1. Accéder à `/missions/4`
+2. Choisir le bon type de graphique pour 3 scénarios
+3. Recevoir un feedback immédiat
+4. Visualiser les graphiques corrects
+5. Détecter un graphique trompeur (piège pédagogique)
+
+**Mission 5 - "Détecte le spam"** :
+1. Accéder à `/missions/5`
+2. Classifier des messages comme spam ou non-spam
+3. Observer les patterns et caractéristiques
+4. Comprendre les bases de la classification
+
+**Support** : Chaque mission contient des instructions claires, un feedback immédiat et des explications pédagogiques
+
+#### Étape 5 : Utilisation du Chatbot (10 minutes)
+
+**Objectif** : Obtenir des réponses aux questions courantes
+
+**Mode opératoire** :
+1. Accéder à la page "Chatbot" (lien dans la navbar)
+2. Poser des questions en langage naturel :
+   - "Faut-il savoir coder ?"
+   - "Qu'est-ce qu'on apprend en BUT SD ?"
+   - "Quels métiers après le BUT SD ?"
+   - "Comment postuler ?"
+3. Consulter les réponses et les liens suggérés
+4. Utiliser les "quick replies" pour explorer d'autres questions
+
+**Support** : Interface conversationnelle intuitive, réponses adaptées au langage des lycéens
+
+### 5.3 Supports Pédagogiques Complémentaires
+
+#### Fiches de Mission (à créer selon besoin)
+
+Pour chaque mission, une fiche peut être distribuée aux élèves avec :
+- Objectif de la mission
+- Compétence travaillée
+- Lien direct vers la mission
+- Questions de réflexion après la mission
+
+#### Guide d'Utilisation pour les Parents
+
+Le site peut être partagé avec les parents pour :
+- Comprendre la formation proposée
+- Aider leur enfant dans son orientation
+- Visualiser les débouchés professionnels
+
+**Lien à partager** : https://projet-vulgarisation.vercel.app
+
+### 5.4 Créativité et Vulgarisation
+
+#### Approche Créative
+
+Le site utilise plusieurs **leviers créatifs** pour rendre la science des données accessible :
+
+1. **Gamification** :
+   - Missions interactives avec scores et badges
+   - Progression visible et motivante
+   - Feedback immédiat et positif
+
+2. **Analogies Concrètes** :
+   - Netflix pour expliquer les systèmes de recommandation
+   - Sport pour illustrer l'analyse de données
+   - Graphiques trompeurs pour développer l'esprit critique
+
+3. **Design Moderne** :
+   - Interface sombre et moderne (inspirée des outils de développement)
+   - Animations fluides (Framer Motion)
+   - Graphiques interactifs (Recharts)
+
+4. **Langage Vulgarisé** :
+   - Pas de jargon technique inutile
+   - Explications simples et concrètes
+   - Exemples du quotidien
+
+#### Vulgarisation Pédagogique
+
+**Techniques utilisées** :
+
+- **Métaphores** : "Détective des données", "Netflix dans ta tête"
+- **Exemples concrets** : Températures, matchs de foot, recommandations de films
+- **Visualisation** : Graphiques interactifs, tableaux colorés, animations
+- **Interactivité** : Manipulation directe des données, sliders, sélections
+- **Feedback pédagogique** : Explications après chaque action, "Ce que tu apprends"
+
+**Résultat** : Des concepts complexes (data cleaning, machine learning, visualisation) deviennent accessibles et compréhensibles pour des lycéens sans prérequis.
+
+### 5.5 Points Techniques pour les Enseignants
+
+#### Accès et Compatibilité
 
 - **URL** : https://projet-vulgarisation.vercel.app
 - **Compatibilité** : Tous navigateurs modernes (Chrome, Firefox, Safari, Edge)
 - **Responsive** : Fonctionne sur mobile, tablette et ordinateur
 - **Gratuit** : Aucun coût, aucune inscription requise
+- **Hors ligne** : Non (nécessite une connexion internet)
 
-### 5.2 Données et Confidentialité
+#### Données et Confidentialité
 
 - **Aucune collecte de données personnelles** : Le site fonctionne entièrement côté client
 - **Pas d'inscription** : Accès libre et anonyme
 - **Progression locale** : Les scores et badges sont stockés localement (localStorage) et ne sont pas transmis
+- **Conformité RGPD** : Aucune donnée personnelle n'est collectée ou transmise
 
-### 5.3 Maintenance et Évolutions
+#### Maintenance et Évolutions
 
 Le site est **maintenu et amélioré régulièrement** :
 - Corrections de bugs
 - Ajout de nouvelles missions
 - Amélioration du contenu pédagogique
+- Mise à jour des informations (débouchés, programme)
 
 ---
 
@@ -285,6 +454,32 @@ Le site peut également être partagé directement avec les élèves pour une **
 
 ---
 
+## 7. Ressources et Supports
+
+### 7.1 Liens Utiles
+
+- **Site principal** : https://projet-vulgarisation.vercel.app
+- **Hub des missions** : https://projet-vulgarisation.vercel.app/missions
+- **Simulateur** : https://projet-vulgarisation.vercel.app/simulator
+- **Chatbot** : https://projet-vulgarisation.vercel.app/chat
+- **Débouchés** : https://projet-vulgarisation.vercel.app/careers
+
+### 7.2 QR Code pour Accès Rapide
+
+Un QR code peut être généré pour faciliter l'accès au site depuis un smartphone. Le lien principal peut être partagé via :
+- Affichage en classe
+- Distribution sur support papier
+- Partage via ENT ou messagerie
+
+### 7.3 Support Technique
+
+Pour toute question technique ou pédagogique :
+- Consulter la FAQ du site : https://projet-vulgarisation.vercel.app/faq
+- Utiliser le chatbot intégré pour des questions rapides
+- Contacter l'équipe de développement via le formulaire de contact
+
+---
+
 **Contact et Support** : Pour toute question sur l'utilisation pédagogique du site, n'hésitez pas à nous contacter.
 
 **Lien du site** : https://projet-vulgarisation.vercel.app
@@ -292,4 +487,10 @@ Le site peut également être partagé directement avec les élèves pour une **
 ---
 
 *Rapport rédigé en 2026 - Projet de Valorisation Pédagogique BUT Science des Données*
+
+**Équipe de développement** :
+- Aurel SOUSSOUKPO
+- Mell-Florda OBISSA
+- Faste-Remède MOUANIA
+- God-Louange THOMBET
 

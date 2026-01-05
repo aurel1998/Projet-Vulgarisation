@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport : Site de Valorisation du BUT Science des Données</title>
+    <style>
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            color: #333;
+        }
+        h1 {
+            color: #06b6d4;
+            border-bottom: 3px solid #06b6d4;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h2 {
+            color: #8b5cf6;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        h4 {
+            color: #666;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        strong {
+            color: #06b6d4;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .highlight {
+            background-color: #e6f7ff;
+            padding: 15px;
+            border-left: 4px solid #06b6d4;
+            margin: 15px 0;
+        }
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        .checklist li:before {
+            content: "✅ ";
+            margin-right: 8px;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+        a {
+            color: #06b6d4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #06b6d4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rapport : Site de Valorisation du BUT Science des Données</h1>
+    <h2>Outil d'Orientation Interactive pour les Lycéens</h2>
+    
+    <hr>
+
+    <h1>1. Présentation et Contexte</h1>
+
+    <h2>1.1 Le Problème Identifié</h2>
+
+    <p>L'orientation post-bac représente un défi majeur pour les lycéens de 15 à 18 ans. Face à la multiplication des formations et à la complexité des parcours, les jeunes manquent souvent d'outils concrets pour :</p>
+    <ul>
+        <li><strong>Comprendre</strong> ce qu'est réellement une formation avant de s'y engager</li>
+        <li><strong>Expérimenter</strong> les compétences enseignées de manière ludique</li>
+        <li><strong>Se projeter</strong> dans les métiers et débouchés professionnels</li>
+        <li><strong>Obtenir des réponses</strong> à leurs questions sans barrière</li>
+    </ul>
+
+    <p>Le BUT Science des Données (BUT SD) souffre particulièrement de cette opacité : perçu comme technique, mathématique ou réservé aux "experts", il effraie de nombreux lycéens qui pourraient pourtant y exceller.</p>
+
+    <h2>1.2 La Solution Proposée</h2>
+
+    <p>Ce site web interactif a été conçu pour <strong>démystifier le BUT Science des Données</strong> en permettant aux lycéens de :</p>
+    <ul>
+        <li>Découvrir la formation par la pratique (5 missions interactives)</li>
+        <li>Comprendre les compétences acquises de manière concrète</li>
+        <li>Visualiser les débouchés professionnels</li>
+        <li>Obtenir des réponses personnalisées via un chatbot étudiant</li>
+        <li>Se projeter dans un parcours adapté à leur profil</li>
+    </ul>
+
+    <p><strong>Lien du site</strong> : <a href="https://projet-vulgarisation.vercel.app">https://projet-vulgarisation.vercel.app</a></p>
+
+    <div class="page-break"></div>
+
+    <h1>2. Fonctionnalités Principales</h1>
+
+    <h2>2.1 Page d'Accueil : Premier Contact Impactant</h2>
+
+    <p>La landing page offre une <strong>expérience immersive</strong> dès l'arrivée :</p>
+    <ul>
+        <li><strong>Hero section</strong> avec message clair : "La science des données, c'est comprendre le monde avec des chiffres"</li>
+        <li><strong>Sections pédagogiques</strong> :
+            <ul>
+                <li>"Pourquoi c'est fait pour toi" : démystification des idées reçues</li>
+                <li>Timeline des compétences : visualisation du parcours sur 3 ans</li>
+                <li>Mini-démo interactive : graphique de température (exemple concret)</li>
+                <li>Présentation des métiers : 8 débouchés avec salaires et outils</li>
+                <li>Témoignages étudiants : 4 retours d'expérience authentiques</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p><strong>Objectif pédagogique</strong> : Rassurer et donner envie en moins de 2 minutes.</p>
+
+    <h2>2.2 Les 5 Missions Interactives : Apprendre en Faisant</h2>
+
+    <p>Le cœur du site réside dans <strong>5 missions gamifiées</strong> qui permettent d'expérimenter les compétences du BUT SD :</p>
+
+    <h3>Mission 1 : "Nettoie tes données"</h3>
+    <ul>
+        <li><strong>Objectif</strong> : Détecter et corriger les erreurs dans un dataset (doublons, valeurs manquantes, incohérences)</li>
+        <li><strong>Compétence travaillée</strong> : Nettoyage de données (data cleaning)</li>
+        <li><strong>Format</strong> : Tableau interactif avec feedback immédiat</li>
+        <li><strong>Durée</strong> : ~5 minutes</li>
+    </ul>
+
+    <h3>Mission 2 : "Qui va gagner le match ?"</h3>
+    <ul>
+        <li><strong>Objectif</strong> : Analyser des statistiques sportives et faire une prédiction</li>
+        <li><strong>Compétence travaillée</strong> : Analyse de données, calcul de scores, visualisation</li>
+        <li><strong>Format</strong> : Sliders interactifs + graphiques Recharts</li>
+        <li><strong>Durée</strong> : ~5 minutes</li>
+    </ul>
+
+    <h3>Mission 3 : "Netflix dans ta tête"</h3>
+    <ul>
+        <li><strong>Objectif</strong> : Créer un système de recommandation simple basé sur les goûts</li>
+        <li><strong>Compétence travaillée</strong> : Systèmes de recommandation, similarité, scoring</li>
+        <li><strong>Format</strong> : Sélection de tags + calcul de scores</li>
+        <li><strong>Durée</strong> : ~4 minutes</li>
+    </ul>
+
+    <h3>Mission 4 : "Parle en graphiques"</h3>
+    <ul>
+        <li><strong>Objectif</strong> : Choisir le bon type de graphique selon le contexte + détecter les graphiques trompeurs</li>
+        <li><strong>Compétence travaillée</strong> : Data visualisation, choix de représentation, esprit critique</li>
+        <li><strong>Format</strong> : Quiz interactif + graphiques Recharts (courbes, barres, camemberts)</li>
+        <li><strong>Durée</strong> : ~6 minutes</li>
+    </ul>
+
+    <h3>Mission 5 : "Détecte le spam"</h3>
+    <ul>
+        <li><strong>Objectif</strong> : Classifier des messages comme spam ou non-spam</li>
+        <li><strong>Compétence travaillée</strong> : Classification, analyse de texte, apprentissage automatique</li>
+        <li><strong>Format</strong> : Interface de classification avec feedback</li>
+        <li><strong>Durée</strong> : ~5 minutes</li>
+    </ul>
+
+    <div class="highlight">
+        <p><strong>Points forts pédagogiques</strong> :</p>
+        <ul class="checklist">
+            <li><strong>Feedback immédiat</strong> : L'élève comprend instantanément ses erreurs</li>
+            <li><strong>Gamification</strong> : Badges, progression, scores de qualité</li>
+            <li><strong>Concrétisation</strong> : Chaque mission illustre une compétence réelle du BUT SD</li>
+            <li><strong>Accessibilité</strong> : Aucun prérequis technique nécessaire</li>
+        </ul>
+    </div>
+
+    <h2>2.3 Chatbot Étudiant : Réponses Personnalisées</h2>
+
+    <p>Un <strong>chatbot rule-based</strong> simule un étudiant en BUT SD qui répond aux questions courantes :</p>
+    <ul>
+        <li>Questions sur les prérequis ("Faut-il savoir coder ?")</li>
+        <li>Questions sur le programme ("Qu'est-ce qu'on apprend ?")</li>
+        <li>Questions sur les débouchés ("Quels métiers après ?")</li>
+        <li>Questions sur l'admission ("Comment postuler ?")</li>
+    </ul>
+
+    <p><strong>Avantages</strong> :</p>
+    <ul>
+        <li>Disponible 24/7, sans barrière</li>
+        <li>Réponses adaptées au langage des lycéens</li>
+        <li>Liens vers les pages pertinentes du site</li>
+    </ul>
+
+    <h2>2.4 Simulateur de Parcours : Orientation Personnalisée</h2>
+
+    <p>Un <strong>outil d'orientation interactif</strong> en 3 questions :</p>
+    <ol>
+        <li>Type de bac (Général / Technologique)</li>
+        <li>Centre d'intérêt (Sport / Réseaux / Environnement / Marketing)</li>
+        <li>Préférence d'apprentissage (Projets / Théorie / Mix)</li>
+    </ol>
+
+    <p><strong>Résultat</strong> : Recommandation personnalisée avec :</p>
+    <ul>
+        <li>3 missions à faire en priorité</li>
+        <li>2 métiers correspondant au profil</li>
+        <li>3 conseils concrets pour réussir</li>
+    </ul>
+
+    <p><strong>Valeur pédagogique</strong> : Aide à la décision d'orientation basée sur le profil de l'élève.</p>
+
+    <h2>2.5 Pages Informatives Complémentaires</h2>
+
+    <ul>
+        <li><strong>Débouchés</strong> : 8 métiers détaillés (salaire, outils, perspectives)</li>
+        <li><strong>La Formation</strong> : Programme vulgarisé, timeline, stages, alternance</li>
+        <li><strong>FAQ</strong> : 15 questions fréquentes en accordéon</li>
+        <li><strong>Shorts</strong> : Vidéos courtes (format TikTok) sur le quotidien en BUT SD</li>
+        <li><strong>Candidater</strong> : Guide de candidature et formulaire de contact</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <h1>3. Utilisation Pédagogique</h1>
+
+    <h2>3.1 Scénarios d'Utilisation en Classe</h2>
+
+    <h3>Scénario 1 : Découverte en Autonomie (1h)</h3>
+    <p><strong>Objectif</strong> : Permettre aux élèves de découvrir le BUT SD de manière autonome</p>
+
+    <p><strong>Déroulement</strong> :</p>
+    <ol>
+        <li>Présentation du site (5 min) : L'enseignant présente l'outil et ses objectifs</li>
+        <li>Exploration libre (30 min) : Les élèves naviguent sur le site, font 1-2 missions</li>
+        <li>Partage d'expérience (15 min) : Discussion sur ce qu'ils ont découvert</li>
+        <li>Retour écrit (10 min) : Chaque élève note 3 choses apprises</li>
+    </ol>
+
+    <p><strong>Bénéfices</strong> :</p>
+    <ul>
+        <li>Découverte active et personnalisée</li>
+        <li>Pas de pression, chacun avance à son rythme</li>
+        <li>Feedback immédiat des missions</li>
+    </ul>
+
+    <h3>Scénario 2 : Atelier Orientation (2h)</h3>
+    <p><strong>Objectif</strong> : Utiliser le site comme support pour un atelier d'orientation</p>
+
+    <p><strong>Déroulement</strong> :</p>
+    <ol>
+        <li><strong>Phase 1 - Découverte</strong> (30 min) : Navigation libre sur le site</li>
+        <li><strong>Phase 2 - Simulateur</strong> (20 min) : Chaque élève utilise le simulateur de parcours</li>
+        <li><strong>Phase 3 - Missions</strong> (40 min) : Réalisation de 2-3 missions en petits groupes</li>
+        <li><strong>Phase 4 - Débat</strong> (30 min) : Discussion sur les compétences découvertes et les métiers</li>
+    </ol>
+
+    <p><strong>Bénéfices</strong> :</p>
+    <ul>
+        <li>Approche ludique qui dédramatise l'orientation</li>
+        <li>Expérience concrète des compétences</li>
+        <li>Création d'un dialogue entre pairs</li>
+    </ul>
+
+    <h3>Scénario 3 : Support pour Entretiens d'Orientation</h3>
+    <p><strong>Objectif</strong> : Utiliser le site comme support lors d'entretiens individuels</p>
+
+    <p><strong>Déroulement</strong> :</p>
+    <ul>
+        <li>L'enseignant guide l'élève vers les sections pertinentes selon ses questions</li>
+        <li>Utilisation du chatbot pour répondre aux questions courantes</li>
+        <li>Réalisation d'une mission ensemble pour illustrer une compétence</li>
+    </ul>
+
+    <p><strong>Bénéfices</strong> :</p>
+    <ul>
+        <li>Support visuel et interactif</li>
+        <li>Démystification par la pratique</li>
+        <li>Création d'un langage commun</li>
+    </ul>
+
+    <h2>3.2 Utilisation en Accompagnement Personnalisé</h2>
+
+    <p>Le site peut être utilisé dans le cadre de l'<strong>Accompagnement Personnalisé (AP)</strong> ou des <strong>heures de vie de classe</strong> :</p>
+    <ul>
+        <li><strong>Séance "Découverte des métiers du numérique"</strong> : Focus sur la page Débouchés</li>
+        <li><strong>Séance "Comprendre les formations"</strong> : Focus sur la page Formation + Simulateur</li>
+        <li><strong>Séance "Esprit critique et données"</strong> : Focus sur la Mission 4 (graphiques trompeurs)</li>
+    </ul>
+
+    <h2>3.3 Utilisation à Distance</h2>
+
+    <p>Le site est <strong>accessible 24/7</strong> et peut être utilisé :</p>
+    <ul>
+        <li>En devoir à la maison : "Explore le site et fais au moins 2 missions"</li>
+        <li>En préparation d'un forum des métiers : Découverte avant l'événement</li>
+        <li>En complément d'une visite d'établissement : Consolidation après la visite</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <h1>4. Impact et Bénéfices pour les Lycéens</h1>
+
+    <h2>4.1 Démystification de la Formation</h2>
+
+    <p><strong>Avant</strong> : "Le BUT SD, c'est pour les matheux, faut savoir coder, c'est trop technique"</p>
+
+    <p><strong>Après</strong> : "Ah, c'est comprendre des données, nettoyer des tableaux, faire des graphiques. Je peux essayer !"</p>
+
+    <p>Le site <strong>brise les barrières psychologiques</strong> en montrant que :</p>
+    <ul>
+        <li>Aucun prérequis n'est nécessaire</li>
+        <li>Les compétences sont accessibles et concrètes</li>
+        <li>On apprend progressivement, pas besoin d'être expert dès le départ</li>
+    </ul>
+
+    <h2>4.2 Expérience Concrète des Compétences</h2>
+
+    <p>Contrairement à une brochure ou une présentation PowerPoint, le site permet de <strong>manipuler réellement</strong> les outils et concepts :</p>
+    <ul>
+        <li>Nettoyer des données (Mission 1)</li>
+        <li>Faire des prédictions (Mission 2)</li>
+        <li>Créer un système de recommandation (Mission 3)</li>
+        <li>Choisir le bon graphique (Mission 4)</li>
+        <li>Classifier des données (Mission 5)</li>
+    </ul>
+
+    <p>Cette <strong>expérience pratique</strong> permet aux lycéens de :</p>
+    <ul>
+        <li>Se projeter dans la formation</li>
+        <li>Évaluer leur intérêt réel</li>
+        <li>Comprendre ce qu'ils vont apprendre</li>
+    </ul>
+
+    <h2>4.3 Aide à la Décision d'Orientation</h2>
+
+    <p>Le <strong>simulateur de parcours</strong> offre une aide concrète à la décision :</p>
+    <ul>
+        <li>Recommandations personnalisées selon le profil</li>
+        <li>Visualisation des métiers correspondants</li>
+        <li>Conseils adaptés au type de bac et aux préférences</li>
+    </ul>
+
+    <p><strong>Impact</strong> : Réduction de l'anxiété liée au choix d'orientation.</p>
+
+    <h2>4.4 Accessibilité et Inclusivité</h2>
+
+    <p>Le site est conçu pour être <strong>accessible à tous</strong> :</p>
+    <ul>
+        <li>Interface intuitive, pas besoin de compétences techniques</li>
+        <li>Langage simple et vulgarisé</li>
+        <li>Exemples concrets (sport, Netflix, météo)</li>
+        <li>Disponible sur mobile, tablette et ordinateur</li>
+    </ul>
+
+    <p><strong>Résultat</strong> : Aucun élève n'est exclu par manque de prérequis.</p>
+
+    <h2>4.5 Création d'un Dialogue</h2>
+
+    <p>Le site <strong>facilite le dialogue</strong> entre :</p>
+    <ul>
+        <li>Les lycéens et leurs enseignants (support visuel pour les discussions)</li>
+        <li>Les lycéens et leurs parents (outil de compréhension partagée)</li>
+        <li>Les lycéens entre eux (expérience commune à partager)</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <h1>5. Support et Mode Opératoire</h1>
+
+    <h2>5.1 Accès au Site</h2>
+
+    <p><strong>Lien principal</strong> : <a href="https://projet-vulgarisation.vercel.app">https://projet-vulgarisation.vercel.app</a></p>
+
+    <p>Le site est <strong>accessible 24/7</strong> sans inscription ni authentification. Il fonctionne sur tous les appareils (ordinateur, tablette, smartphone) et tous les navigateurs modernes.</p>
+
+    <h2>5.2 Mode Opératoire pour les Enseignants</h2>
+
+    <h3>Étape 1 : Présentation du Site (5-10 minutes)</h3>
+    <p><strong>Objectif</strong> : Faire découvrir l'outil aux élèves</p>
+
+    <p><strong>Actions</strong> :</p>
+    <ol>
+        <li>Projeter le site sur un écran ou tableau blanc interactif</li>
+        <li>Présenter la page d'accueil et ses sections principales</li>
+        <li>Montrer rapidement une mission (exemple : Mission 1 "Nettoie tes données")</li>
+        <li>Expliquer l'objectif : découvrir le BUT SD de manière interactive</li>
+    </ol>
+
+    <p><strong>Support visuel</strong> : Utiliser la page d'accueil comme support de présentation</p>
+
+    <h3>Étape 2 : Navigation et Exploration (20-30 minutes)</h3>
+    <p><strong>Objectif</strong> : Permettre aux élèves d'explorer le site de manière autonome</p>
+
+    <p><strong>Actions</strong> :</p>
+    <ol>
+        <li>Distribuer le lien du site aux élèves (via ENT, QR code, ou tableau)</li>
+        <li>Laisser les élèves naviguer librement</li>
+        <li>Encourager à :
+            <ul>
+                <li>Faire au moins 2 missions</li>
+                <li>Utiliser le simulateur de parcours</li>
+                <li>Consulter la page "Débouchés"</li>
+                <li>Tester le chatbot</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p><strong>Support</strong> : Le site est auto-explicatif avec des instructions claires dans chaque section</p>
+
+    <h3>Étape 3 : Utilisation du Simulateur (10-15 minutes)</h3>
+    <p><strong>Objectif</strong> : Aider les élèves à se projeter dans un parcours personnalisé</p>
+
+    <p><strong>Mode opératoire</strong> :</p>
+    <ol>
+        <li>Accéder à la page "Simulateur" (lien dans la navbar)</li>
+        <li>Répondre aux 3 questions :
+            <ul>
+                <li>Type de bac (Général / Technologique)</li>
+                <li>Centre d'intérêt (Sport / Réseaux / Environnement / Marketing)</li>
+                <li>Préférence d'apprentissage (Projets / Théorie / Mix)</li>
+            </ul>
+        </li>
+        <li>Consulter les recommandations personnalisées</li>
+        <li>Noter les missions recommandées et les métiers suggérés</li>
+    </ol>
+
+    <p><strong>Support</strong> : Interface intuitive avec boutons clairs et feedback immédiat</p>
+
+    <h3>Étape 4 : Réalisation des Missions (30-45 minutes)</h3>
+    <p><strong>Objectif</strong> : Expérimenter concrètement les compétences du BUT SD</p>
+
+    <p><strong>Mode opératoire pour chaque mission</strong> :</p>
+
+    <h4>Mission 1 - "Nettoie tes données"</h4>
+    <ol>
+        <li>Accéder à <code>/missions/1</code> ou cliquer sur la mission dans le hub</li>
+        <li>Observer les erreurs dans le tableau (doublons, valeurs manquantes, incohérences)</li>
+        <li>Cliquer sur "Corriger" pour chaque erreur détectée</li>
+        <li>Atteindre 100% de qualité des données</li>
+        <li>Lire le feedback pédagogique à la fin</li>
+    </ol>
+
+    <h4>Mission 2 - "Qui va gagner le match ?"</h4>
+    <ol>
+        <li>Accéder à <code>/missions/2</code></li>
+        <li>Utiliser les sliders pour modifier les statistiques des équipes</li>
+        <li>Observer l'impact sur le score de prédiction</li>
+        <li>Répondre au quiz de compréhension</li>
+        <li>Visualiser les graphiques générés</li>
+    </ol>
+
+    <h4>Mission 3 - "Netflix dans ta tête"</h4>
+    <ol>
+        <li>Accéder à <code>/missions/3</code></li>
+        <li>Sélectionner exactement 3 goûts (tags)</li>
+        <li>Consulter les recommandations de films</li>
+        <li>Comprendre le système de scoring basé sur la similarité</li>
+    </ol>
+
+    <h4>Mission 4 - "Parle en graphiques"</h4>
+    <ol>
+        <li>Accéder à <code>/missions/4</code></li>
+        <li>Choisir le bon type de graphique pour 3 scénarios</li>
+        <li>Recevoir un feedback immédiat</li>
+        <li>Visualiser les graphiques corrects</li>
+        <li>Détecter un graphique trompeur (piège pédagogique)</li>
+    </ol>
+
+    <h4>Mission 5 - "Détecte le spam"</h4>
+    <ol>
+        <li>Accéder à <code>/missions/5</code></li>
+        <li>Classifier des messages comme spam ou non-spam</li>
+        <li>Observer les patterns et caractéristiques</li>
+        <li>Comprendre les bases de la classification</li>
+    </ol>
+
+    <p><strong>Support</strong> : Chaque mission contient des instructions claires, un feedback immédiat et des explications pédagogiques</p>
+
+    <h3>Étape 5 : Utilisation du Chatbot (10 minutes)</h3>
+    <p><strong>Objectif</strong> : Obtenir des réponses aux questions courantes</p>
+
+    <p><strong>Mode opératoire</strong> :</p>
+    <ol>
+        <li>Accéder à la page "Chatbot" (lien dans la navbar)</li>
+        <li>Poser des questions en langage naturel :
+            <ul>
+                <li>"Faut-il savoir coder ?"</li>
+                <li>"Qu'est-ce qu'on apprend en BUT SD ?"</li>
+                <li>"Quels métiers après le BUT SD ?"</li>
+                <li>"Comment postuler ?"</li>
+            </ul>
+        </li>
+        <li>Consulter les réponses et les liens suggérés</li>
+        <li>Utiliser les "quick replies" pour explorer d'autres questions</li>
+    </ol>
+
+    <p><strong>Support</strong> : Interface conversationnelle intuitive, réponses adaptées au langage des lycéens</p>
+
+    <h2>5.3 Supports Pédagogiques Complémentaires</h2>
+
+    <h3>Fiches de Mission (à créer selon besoin)</h3>
+    <p>Pour chaque mission, une fiche peut être distribuée aux élèves avec :</p>
+    <ul>
+        <li>Objectif de la mission</li>
+        <li>Compétence travaillée</li>
+        <li>Lien direct vers la mission</li>
+        <li>Questions de réflexion après la mission</li>
+    </ul>
+
+    <h3>Guide d'Utilisation pour les Parents</h3>
+    <p>Le site peut être partagé avec les parents pour :</p>
+    <ul>
+        <li>Comprendre la formation proposée</li>
+        <li>Aider leur enfant dans son orientation</li>
+        <li>Visualiser les débouchés professionnels</li>
+    </ul>
+
+    <p><strong>Lien à partager</strong> : <a href="https://projet-vulgarisation.vercel.app">https://projet-vulgarisation.vercel.app</a></p>
+
+    <h2>5.4 Créativité et Vulgarisation</h2>
+
+    <h3>Approche Créative</h3>
+    <p>Le site utilise plusieurs <strong>leviers créatifs</strong> pour rendre la science des données accessible :</p>
+
+    <ol>
+        <li><strong>Gamification</strong> :
+            <ul>
+                <li>Missions interactives avec scores et badges</li>
+                <li>Progression visible et motivante</li>
+                <li>Feedback immédiat et positif</li>
+            </ul>
+        </li>
+        <li><strong>Analogies Concrètes</strong> :
+            <ul>
+                <li>Netflix pour expliquer les systèmes de recommandation</li>
+                <li>Sport pour illustrer l'analyse de données</li>
+                <li>Graphiques trompeurs pour développer l'esprit critique</li>
+            </ul>
+        </li>
+        <li><strong>Design Moderne</strong> :
+            <ul>
+                <li>Interface sombre et moderne (inspirée des outils de développement)</li>
+                <li>Animations fluides (Framer Motion)</li>
+                <li>Graphiques interactifs (Recharts)</li>
+            </ul>
+        </li>
+        <li><strong>Langage Vulgarisé</strong> :
+            <ul>
+                <li>Pas de jargon technique inutile</li>
+                <li>Explications simples et concrètes</li>
+                <li>Exemples du quotidien</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Vulgarisation Pédagogique</h3>
+    <p><strong>Techniques utilisées</strong> :</p>
+    <ul>
+        <li><strong>Métaphores</strong> : "Détective des données", "Netflix dans ta tête"</li>
+        <li><strong>Exemples concrets</strong> : Températures, matchs de foot, recommandations de films</li>
+        <li><strong>Visualisation</strong> : Graphiques interactifs, tableaux colorés, animations</li>
+        <li><strong>Interactivité</strong> : Manipulation directe des données, sliders, sélections</li>
+        <li><strong>Feedback pédagogique</strong> : Explications après chaque action, "Ce que tu apprends"</li>
+    </ul>
+
+    <p><strong>Résultat</strong> : Des concepts complexes (data cleaning, machine learning, visualisation) deviennent accessibles et compréhensibles pour des lycéens sans prérequis.</p>
+
+    <h2>5.5 Points Techniques pour les Enseignants</h2>
+
+    <h3>Accès et Compatibilité</h3>
+    <ul>
+        <li><strong>URL</strong> : <a href="https://projet-vulgarisation.vercel.app">https://projet-vulgarisation.vercel.app</a></li>
+        <li><strong>Compatibilité</strong> : Tous navigateurs modernes (Chrome, Firefox, Safari, Edge)</li>
+        <li><strong>Responsive</strong> : Fonctionne sur mobile, tablette et ordinateur</li>
+        <li><strong>Gratuit</strong> : Aucun coût, aucune inscription requise</li>
+        <li><strong>Hors ligne</strong> : Non (nécessite une connexion internet)</li>
+    </ul>
+
+    <h3>Données et Confidentialité</h3>
+    <ul>
+        <li><strong>Aucune collecte de données personnelles</strong> : Le site fonctionne entièrement côté client</li>
+        <li><strong>Pas d'inscription</strong> : Accès libre et anonyme</li>
+        <li><strong>Progression locale</strong> : Les scores et badges sont stockés localement (localStorage) et ne sont pas transmis</li>
+        <li><strong>Conformité RGPD</strong> : Aucune donnée personnelle n'est collectée ou transmise</li>
+    </ul>
+
+    <h3>Maintenance et Évolutions</h3>
+    <p>Le site est <strong>maintenu et amélioré régulièrement</strong> :</p>
+    <ul>
+        <li>Corrections de bugs</li>
+        <li>Ajout de nouvelles missions</li>
+        <li>Amélioration du contenu pédagogique</li>
+        <li>Mise à jour des informations (débouchés, programme)</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <h1>6. Conclusion</h1>
+
+    <p>Ce site web représente un <strong>outil pédagogique innovant</strong> pour l'orientation des lycéens vers le BUT Science des Données. Il répond à un besoin réel : <strong>démystifier une formation perçue comme inaccessible</strong> en permettant aux jeunes de l'expérimenter concrètement.</p>
+
+    <h2>Points Clés à Retenir</h2>
+
+    <ul class="checklist">
+        <li><strong>Accessible</strong> : Aucun prérequis technique, interface intuitive</li>
+        <li><strong>Interactif</strong> : 5 missions gamifiées pour expérimenter les compétences</li>
+        <li><strong>Personnalisé</strong> : Simulateur de parcours et chatbot adaptés</li>
+        <li><strong>Complet</strong> : Informations sur la formation, les métiers, l'admission</li>
+        <li><strong>Gratuit</strong> : Aucun coût, accessible 24/7</li>
+    </ul>
+
+    <h2>Recommandation d'Utilisation</h2>
+
+    <p>Nous recommandons d'intégrer ce site dans :</p>
+    <ul>
+        <li>Les <strong>séances d'orientation</strong> en classe</li>
+        <li>Les <strong>entretiens individuels</strong> avec les élèves</li>
+        <li>Les <strong>forums des métiers</strong> comme support interactif</li>
+        <li>Les <strong>heures d'Accompagnement Personnalisé</strong></li>
+    </ul>
+
+    <p>Le site peut également être partagé directement avec les élèves pour une <strong>découverte en autonomie</strong>.</p>
+
+    <h1>7. Ressources et Supports</h1>
+
+    <h2>7.1 Liens Utiles</h2>
+
+    <ul>
+        <li><strong>Site principal</strong> : <a href="https://projet-vulgarisation.vercel.app">https://projet-vulgarisation.vercel.app</a></li>
+        <li><strong>Hub des missions</strong> : <a href="https://projet-vulgarisation.vercel.app/missions">https://projet-vulgarisation.vercel.app/missions</a></li>
+        <li><strong>Simulateur</strong> : <a href="https://projet-vulgarisation.vercel.app/simulator">https://projet-vulgarisation.vercel.app/simulator</a></li>
+        <li><strong>Chatbot</strong> : <a href="https://projet-vulgarisation.vercel.app/chat">https://projet-vulgarisation.vercel.app/chat</a></li>
+        <li><strong>Débouchés</strong> : <a href="https://projet-vulgarisation.vercel.app/careers">https://projet-vulgarisation.vercel.app/careers</a></li>
+    </ul>
+
+    <h2>7.2 QR Code pour Accès Rapide</h2>
+
+    <p>Un QR code peut être généré pour faciliter l'accès au site depuis un smartphone. Le lien principal peut être partagé via :</p>
+    <ul>
+        <li>Affichage en classe</li>
+        <li>Distribution sur support papier</li>
+        <li>Partage via ENT ou messagerie</li>
+    </ul>
+
+    <h2>7.3 Support Technique</h2>
+
+    <p>Pour toute question technique ou pédagogique :</p>
+    <ul>
+        <li>Consulter la FAQ du site : <a href="https://projet-vulgarisation.vercel.app/faq">https://projet-vulgarisation.vercel.app/faq</a></li>
+        <li>Utiliser le chatbot intégré pour des questions rapides</li>
+        <li>Contacter l'équipe de développement via le formulaire de contact</li>
+    </ul>
+
+    <div class="footer">
+        <p><strong>Contact et Support</strong> : Pour toute question sur l'utilisation pédagogique du site, n'hésitez pas à nous contacter.</p>
+        <p><strong>Lien du site</strong> : <a href="https://projet-vulgarisation.vercel.app">https://projet-vulgarisation.vercel.app</a></p>
+        <hr>
+        <p><em>Rapport rédigé en 2026 - Projet de Valorisation Pédagogique BUT Science des Données</em></p>
+        <p><strong>Équipe de développement</strong> :</p>
+        <p>Aurel SOUSSOUKPO • Mell-Florda OBISSA • Faste-Remède MOUANIA • God-Louange THOMBET</p>
+    </div>
+
+</body>
+</html>
+
