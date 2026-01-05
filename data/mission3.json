@@ -1,0 +1,17 @@
+{
+  "movies": [
+    { "id": "m1", "title": "Mission Galaxie", "tags": ["SF", "Action", "Aventure"] },
+    { "id": "m2", "title": "Rires & Compagnie", "tags": ["Comédie", "Famille"] },
+    { "id": "m3", "title": "Enquête Minuit", "tags": ["Thriller", "Mystère"] },
+    { "id": "m4", "title": "Coeurs d'Été", "tags": ["Romance", "Comédie"] },
+    { "id": "m5", "title": "Planète Bleue", "tags": ["Documentaire", "Nature"] },
+    { "id": "m6", "title": "Stade 90", "tags": ["Sport", "Documentaire"] },
+    { "id": "m7", "title": "Code Rouge", "tags": ["Action", "Thriller"] },
+    { "id": "m8", "title": "Le Grand Puzzle", "tags": ["Mystère", "Aventure"] }
+  ],
+  "availableTags": ["SF", "Action", "Aventure", "Comédie", "Famille", "Thriller", "Mystère", "Romance", "Documentaire", "Nature", "Sport"],
+  "scoring": {
+    "type": "overlap",
+    "description": "Score = nombre de tags en commun entre tes goûts et le film."
+  }
+}

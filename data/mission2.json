@@ -1,0 +1,12 @@
+{
+  "teams": [
+    { "name": "Équipe A", "shots": 12, "possession": 54, "fouls": 10 },
+    { "name": "Équipe B", "shots": 9, "possession": 46, "fouls": 14 }
+  ],
+  "weights": { "shots": 3, "possession": 0.5, "fouls": -1.5 },
+  "explain": [
+    "Plus de tirs augmente les chances",
+    "La possession aide (un peu)",
+    "Trop de fautes pénalise"
+  ]
+}

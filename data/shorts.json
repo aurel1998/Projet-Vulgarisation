@@ -1,0 +1,37 @@
+[
+  {
+    "id": "s1",
+    "title": "Une journée en BUT SD",
+    "durationSec": 18,
+    "slides": [
+      { "t": 0, "text": "8h45 — Mini cours : comprendre une notion" },
+      { "t": 4, "text": "10h — TP : tu manipules un vrai dataset" },
+      { "t": 8, "text": "12h — Projet en groupe : cas concret" },
+      { "t": 12, "text": "15h — Graphiques + conclusions" },
+      { "t": 15, "text": "17h — Restitution : tu expliques ton résultat" }
+    ]
+  },
+  {
+    "id": "s2",
+    "title": "3 idées reçues",
+    "durationSec": 16,
+    "slides": [
+      { "t": 0, "text": "Idée reçue #1 : 'Faut être fort en maths'" },
+      { "t": 4, "text": "Réalité : tu progresses pas à pas, avec des cas concrets." },
+      { "t": 8, "text": "Idée reçue #2 : 'Faut déjà savoir coder'" },
+      { "t": 12, "text": "Réalité : tu apprends depuis le début." }
+    ]
+  },
+  {
+    "id": "s3",
+    "title": "Un projet en 30 secondes",
+    "durationSec": 20,
+    "slides": [
+      { "t": 0, "text": "Objectif : détecter le spam" },
+      { "t": 4, "text": "Étape 1 : nettoyer les messages" },
+      { "t": 8, "text": "Étape 2 : classer des exemples" },
+      { "t": 12, "text": "Étape 3 : tester et mesurer la précision" },
+      { "t": 16, "text": "Résultat : tu as entraîné une mini IA !" }
+    ]
+  }
+]

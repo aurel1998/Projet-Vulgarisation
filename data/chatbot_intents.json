@@ -1,0 +1,277 @@
+{
+  "botName": "Alex – Étudiant en BUT SD",
+  "tone": "cool, rassurant, clair, pas professoral",
+  "intents": [
+    {
+      "tags": ["maths", "niveau maths"],
+      "patterns": ["faut être fort en maths", "les maths c'est dur", "niveau maths", "math", "mathematique", "calcul", "fort en math", "difficile en math", "bon en math"],
+      "responses": [
+        "Pas besoin d'être un pro en maths 😊 On apprend progressivement et surtout avec des exemples concrets.",
+        "Si tu es curieux et motivé, ça suffit largement pour commencer.",
+        "Les maths en BUT SD, c'est surtout des statistiques et de l'analyse de données. Pas besoin d'être un génie !"
+      ],
+      "links": ["/missions", "/faq"]
+    },
+    {
+      "tags": ["programmation", "coder"],
+      "patterns": ["faut savoir coder", "programmation", "python", "code", "programmer", "coder", "savoir coder", "code avant", "langage", "programme"],
+      "responses": [
+        "Non, pas besoin de savoir coder avant. On t'apprend depuis le début.",
+        "Le code sert surtout à analyser des données, pas à faire des applis compliquées.",
+        "Beaucoup d'étudiants commencent sans avoir jamais codé et ça se passe super bien !"
+      ],
+      "links": ["/program", "/missions"]
+    },
+    {
+      "tags": ["contenu formation"],
+      "patterns": ["on fait quoi", "cours", "apprendre", "matiere", "programme", "competence", "qu'est-ce qu'on apprend", "contenu", "matières", "enseignement"],
+      "responses": [
+        "Tu analyses des données, tu fais des graphiques, tu programmes et tu travailles sur des projets.",
+        "Regarde les missions, c'est exactement ce qu'on fait en BUT.",
+        "C'est très pratique : Python, SQL, visualisation, statistiques, projets concrets..."
+      ],
+      "links": ["/missions", "/program"]
+    },
+    {
+      "tags": ["metiers"],
+      "patterns": ["métiers", "débouchés", "travail après", "metier", "debouche", "emploi", "salaire", "apres", "sortie", "carriere", "travail", "profession"],
+      "responses": [
+        "Tu peux devenir data analyst, chargé d'études, analyste marketing, et plus encore.",
+        "Les métiers de la data sont très demandés.",
+        "Plein de possibilités ! Data analyst, data engineer, data scientist, analyste marketing..."
+      ],
+      "links": ["/careers"]
+    },
+    {
+      "tags": ["difficulte"],
+      "patterns": ["c'est dur", "difficile", "niveau", "charge", "travail", "exigeant", "compliqué", "dur", "niveau requis"],
+      "responses": [
+        "C'est exigeant, mais tu es accompagné.",
+        "Beaucoup d'étudiants doutaient au début et ont réussi.",
+        "C'est du travail régulier, mais c'est accessible si tu es motivé !"
+      ],
+      "links": ["/faq", "/program"]
+    },
+    {
+      "tags": ["orientation"],
+      "patterns": ["est-ce fait pour moi", "orientation", "pourquoi", "interet", "pour moi", "convenir", "correspond", "adapter"],
+      "responses": [
+        "Si tu aimes comprendre, analyser et utiliser le numérique, tu es clairement au bon endroit.",
+        "Les missions peuvent t'aider à te faire une idée.",
+        "Si tu es curieux, que tu aimes les chiffres et résoudre des problèmes, fonce !"
+      ],
+      "links": ["/missions", "/"]
+    },
+    {
+      "tags": ["bac techno"],
+      "patterns": ["bac techno", "techno", "stid", "sti2d", "bac pro", "bac pro", "technologique"],
+      "responses": [
+        "Oui, c'est possible ! Le BUT est accessible après différents bacs. La motivation compte plus que le parcours.",
+        "Beaucoup d'étudiants de bac techno réussissent très bien.",
+        "Le BUT SD est ouvert à tous les bacs. Ce qui compte, c'est ta motivation !"
+      ],
+      "links": ["/faq"]
+    },
+    {
+      "tags": ["stage"],
+      "patterns": ["stage", "alternance", "entreprise", "en entreprise", "stage obligatoire"],
+      "responses": [
+        "Oui, les stages font partie de la formation. Tu peux aussi faire de l'alternance selon les IUT.",
+        "C'est l'occasion de mettre en pratique dans une vraie entreprise.",
+        "Plusieurs stages pendant le BUT, et tu peux aussi faire de l'alternance si tu veux."
+      ],
+      "links": ["/program", "/careers"]
+    },
+    {
+      "tags": ["difference info"],
+      "patterns": ["difference", "info", "informatique", "mais info", "comparer", "différence"],
+      "responses": [
+        "Le BUT Science des Données se concentre sur l'analyse et la compréhension des données. Le BUT Info, c'est plus la création de logiciels.",
+        "Les deux sont complémentaires mais différents.",
+        "BUT Info = créer des logiciels. BUT SD = analyser et comprendre les données."
+      ],
+      "links": ["/program", "/faq"]
+    },
+    {
+      "tags": ["ia"],
+      "patterns": ["ia", "intelligence artificielle", "machine learning", "ai", "modèle", "apprentissage automatique"],
+      "responses": [
+        "Oui, tu découvriras les bases de l'IA : prédiction, classification, recommandations.",
+        "C'est accessible et super intéressant !",
+        "En BUT SD, tu touches à l'IA : modèles de prédiction, systèmes de recommandation, classification..."
+      ],
+      "links": ["/missions"]
+    },
+    {
+      "tags": ["duree"],
+      "patterns": ["durée", "combien de temps", "3 ans", "années", "temps", "long"],
+      "responses": [
+        "Le BUT dure 3 ans. Tu obtiens un diplôme reconnu après.",
+        "3 ans de formation, avec possibilité de continuer ou de travailler directement après.",
+        "3 ans, c'est la durée du BUT. Après tu peux travailler ou continuer tes études."
+      ],
+      "links": ["/program", "/faq"]
+    },
+    {
+      "tags": ["theorie"],
+      "patterns": ["théorique", "pratique", "cours magistraux", "théorie", "exercices"],
+      "responses": [
+        "La formation est très pratique ! Les notions théoriques servent surtout à comprendre ce que tu fais dans les projets.",
+        "Beaucoup de projets concrets, pas que de la théorie.",
+        "C'est surtout pratique : tu travailles sur des projets réels dès le début !"
+      ],
+      "links": ["/program", "/missions"]
+    },
+    {
+      "tags": ["groupe"],
+      "patterns": ["groupe", "travail en équipe", "collaboration", "seul", "équipe"],
+      "responses": [
+        "Oui, souvent ! Les projets en groupe sont importants pour apprendre à collaborer comme dans une vraie entreprise.",
+        "Tu travailles souvent en équipe sur des projets.",
+        "Beaucoup de projets en groupe, c'est comme dans le monde professionnel !"
+      ],
+      "links": ["/program"]
+    },
+    {
+      "tags": ["outils"],
+      "patterns": ["outils", "logiciels", "logiciel", "programmes", "technologies"],
+      "responses": [
+        "Des outils utilisés dans le monde professionnel : Python, Excel, SQL, Tableau, bases de données...",
+        "Python, SQL, Excel, logiciels de visualisation, bases de données...",
+        "Tu apprends les outils pro : Python, SQL, tableurs avancés, logiciels de visualisation."
+      ],
+      "links": ["/program", "/careers"]
+    },
+    {
+      "tags": ["poursuite etudes"],
+      "patterns": ["poursuivre", "continuer", "après le but", "master", "école", "ingénieur", "licence"],
+      "responses": [
+        "Oui. Beaucoup d'étudiants poursuivent en licence, école d'ingénieur ou master.",
+        "Tu peux continuer après le BUT ou travailler directement. Les deux sont possibles !",
+        "Plein de possibilités : licence pro, master, école d'ingénieur, ou travailler directement."
+      ],
+      "links": ["/careers", "/faq"]
+    },
+    {
+      "tags": ["emploi"],
+      "patterns": ["trouver un emploi", "emploi après", "marché", "demande", "recrutement"],
+      "responses": [
+        "Oui. Les compétences en données sont très recherchées dans de nombreux secteurs.",
+        "Le marché de la data est très porteur ! Les entreprises cherchent partout.",
+        "Les métiers de la data sont en forte demande, tu trouveras facilement du travail."
+      ],
+      "links": ["/careers"]
+    },
+    {
+      "tags": ["admission"],
+      "patterns": ["admission", "candidater", "postuler", "inscription", "venir", "comment entrer", "sélection"],
+      "responses": [
+        "Pour candidater, c'est via Parcoursup si tu es en terminale, ou directement auprès de l'IUT.",
+        "Avoir le bac, montrer ta motivation dans ta lettre, c'est important !",
+        "Via Parcoursup pour les terminales, ou directement à l'IUT. Le dossier et la motivation comptent."
+      ],
+      "links": ["/apply", "/faq"]
+    },
+    {
+      "tags": ["anglais"],
+      "patterns": ["anglais", "niveau anglais", "anglais requis", "langue"],
+      "responses": [
+        "Un niveau correct d'anglais est utile (beaucoup de ressources sont en anglais), mais pas besoin d'être bilingue !",
+        "Tu améliores ton anglais pendant le BUT. L'important c'est de pouvoir lire de la doc technique.",
+        "Un niveau d'anglais correct suffit. Tu progresses pendant la formation."
+      ],
+      "links": ["/faq"]
+    },
+    {
+      "tags": ["examen"],
+      "patterns": ["examen", "examens", "contrôles", "notes", "évaluation", "partiels"],
+      "responses": [
+        "C'est un mix : contrôles continus, projets notés, parfois des partiels. Beaucoup de compétences sont évaluées via des projets concrets.",
+        "Évaluation surtout par projets, pas que des écrits.",
+        "Des projets notés, des contrôles continus. L'avantage c'est que c'est surtout pratique !"
+      ],
+      "links": ["/program"]
+    },
+    {
+      "tags": ["salut"],
+      "patterns": ["salut", "bonjour", "hello", "hey", "coucou", "bonsoir", "bonjour"],
+      "responses": [
+        "Salut ! 👋 Je suis Alex, étudiant en BUT SD. Je peux répondre à tes questions sur la formation !",
+        "Hey ! Dis-moi ce qui t'intéresse sur le BUT Science des Données.",
+        "Salut ! 😊 Pose-moi tes questions sur le BUT SD, je suis là pour t'aider !"
+      ],
+      "links": []
+    },
+    {
+      "tags": ["aide"],
+      "patterns": ["aide", "help", "question", "savoir", "besoin", "renseignement"],
+      "responses": [
+        "Je peux te parler des cours, des débouchés, du niveau requis, des stages... Ou tu peux faire les missions pour découvrir concrètement !",
+        "Dis-moi ce qui t'intéresse, ou lance-toi dans les missions !",
+        "Je peux répondre sur le programme, les métiers, l'admission... Que veux-tu savoir ?"
+      ],
+      "links": ["/missions", "/faq"]
+    },
+    {
+      "tags": ["merci"],
+      "patterns": ["merci", "thanks", "ok", "d'accord", "super", "parfait", "cool"],
+      "responses": [
+        "De rien ! N'hésite pas si tu as d'autres questions. Tu peux aussi explorer les missions ! 😊",
+        "Pas de souci ! Continue d'explorer le site, il y a plein de trucs intéressants.",
+        "Avec plaisir ! 😊 Explore les missions pour découvrir concrètement ce qu'on apprend."
+      ],
+      "links": ["/missions", "/careers"]
+    },
+    {
+      "tags": ["mission"],
+      "patterns": ["mission", "missions", "jeu", "déco", "essayer", "test", "exercice"],
+      "responses": [
+        "Super ! Les missions sont des mini-jeux pédagogiques qui te montrent ce qu'on apprend. C'est fun et concret !",
+        "Les missions te font découvrir les compétences du BUT SD en s'amusant. Tu veux commencer ?",
+        "Parfait ! Les missions t'apprennent concrètement ce qu'on fait en BUT SD. C'est ludique !"
+      ],
+      "links": ["/missions"]
+    },
+    {
+      "tags": ["fille"],
+      "patterns": ["fille", "filles", "mixité", "genre", "femme", "féminin"],
+      "responses": [
+        "Il y a moins de filles que de garçons en data, mais c'est en train de changer ! Les compétences n'ont rien à voir avec le genre.",
+        "Les IUT font des efforts pour la mixité. Si ça t'intéresse, fonce !",
+        "La data science n'est pas réservée aux garçons. Beaucoup de filles réussissent très bien !"
+      ],
+      "links": ["/faq"]
+    },
+    {
+      "tags": ["prérequis"],
+      "patterns": ["prérequis", "pré-requis", "conditions", "nécessaire", "besoin", "requis"],
+      "responses": [
+        "Avoir le bac (ou être en terminale). Les IUT regardent ton dossier (notes, lettre de motivation), parfois il y a un entretien.",
+        "Le bac suffit. La motivation compte beaucoup dans la sélection.",
+        "Avoir le bac, montrer ta motivation. C'est l'essentiel !"
+      ],
+      "links": ["/apply", "/faq"]
+    }
+  ],
+  "default": "Je ne suis pas sûr de comprendre. Peux-tu reformuler ? Tu peux me demander sur les cours, les débouchés, le niveau requis, ou faire les missions pour découvrir le BUT SD ! 🎓",
+  "quickReplies": [
+    "Faut être fort en maths ?",
+    "On fait quoi en cours ?",
+    "Je viens de bac techno...",
+    "Quels métiers après ?",
+    "C'est quoi la différence avec Info ?"
+  ],
+  "fallback": {
+    "responses": [
+      "Je vois 👍 Tu veux plutôt parler de la formation, des missions, ou des métiers ?",
+      "Je peux t'aider ! Tu veux savoir si c'est fait pour toi, ou comment ça se passe en cours ?"
+    ],
+    "quickReplies": [
+      { "label": "Faut-il être fort en maths ?", "value": "faut être fort en maths" },
+      { "label": "Dois-je savoir coder ?", "value": "faut savoir coder" },
+      { "label": "Quels métiers après ?", "value": "métiers" },
+      { "label": "On fait quoi en cours ?", "value": "on fait quoi" },
+      { "label": "C'est fait pour moi ?", "value": "est-ce fait pour moi" }
+    ]
+  }
+}

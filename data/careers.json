@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "titre": "Data Analyst",
+    "description": "Analyse des données pour aider à la prise de décision.",
+    "whatYouDo": "Tu étudies des chiffres, tu repères des tendances et tu crées des graphiques clairs.",
+    "linkToMissions": ["Mission 2", "Mission 4"],
+    "missionsBUTSD": ["Mission 2 : Qui va gagner le match ?", "Mission 4 : Parle en graphiques"],
+    "outils": ["Python", "Excel", "SQL", "Tableau", "Power BI"],
+    "salaireDebut": "25 000 - 35 000 €",
+    "perspectives": "Très bonnes, secteur en forte croissance"
+  },
+  {
+    "id": 2,
+    "titre": "Chargé d'études statistiques",
+    "description": "Études chiffrées pour comprendre un phénomène.",
+    "whatYouDo": "Tu analyses des données d'enquêtes, de sondages ou de performances.",
+    "linkToMissions": ["Mission 1", "Mission 2"],
+    "missionsBUTSD": ["Mission 1 : Détective des données", "Mission 2 : Qui va gagner le match ?"],
+    "outils": ["R", "Python", "Excel", "SPSS", "Questionnaires"],
+    "salaireDebut": "24 000 - 32 000 €",
+    "perspectives": "Stable, demandé dans tous les secteurs"
+  },
+  {
+    "id": 3,
+    "titre": "Analyste marketing",
+    "description": "Comprendre les comportements des clients.",
+    "whatYouDo": "Tu analyses les ventes, les clics, les préférences clients.",
+    "linkToMissions": ["Mission 3", "Mission 4"],
+    "missionsBUTSD": ["Mission 3 : Netflix dans ta tête", "Mission 4 : Parle en graphiques"],
+    "outils": ["Google Analytics", "Python", "Excel", "Tableau", "CRM"],
+    "salaireDebut": "26 000 - 34 000 €",
+    "perspectives": "Très bonnes, digital en pleine expansion"
+  },
+  {
+    "id": 4,
+    "titre": "Assistant data scientist",
+    "description": "Aide à la création de modèles prédictifs.",
+    "whatYouDo": "Tu testes des modèles simples et aides à automatiser l'analyse.",
+    "linkToMissions": ["Mission 5"],
+    "missionsBUTSD": ["Mission 5 : Mini IA anti-spam"],
+    "outils": ["Python", "Machine Learning", "TensorFlow", "SQL", "Cloud"],
+    "salaireDebut": "30 000 - 40 000 €",
+    "perspectives": "Excellent, secteur IA en explosion"
+  },
+  {
+    "id": 5,
+    "titre": "Data engineer junior",
+    "description": "Préparer et organiser les données.",
+    "whatYouDo": "Tu nettoies, stockes et rends les données utilisables.",
+    "linkToMissions": ["Mission 1"],
+    "missionsBUTSD": ["Mission 1 : Détective des données"],
+    "outils": ["Python", "SQL", "Spark", "Cloud (AWS/Azure)", "Docker"],
+    "salaireDebut": "30 000 - 40 000 €",
+    "perspectives": "Excellent, très recherché"
+  },
+  {
+    "id": 6,
+    "titre": "Analyste sport",
+    "description": "Analyse de performances sportives.",
+    "whatYouDo": "Tu étudies les statistiques de matchs et d'athlètes.",
+    "linkToMissions": ["Mission 2"],
+    "missionsBUTSD": ["Mission 2 : Qui va gagner le match ?"],
+    "outils": ["Python", "Excel", "SQL", "Tableau", "Stats sportives"],
+    "salaireDebut": "25 000 - 33 000 €",
+    "perspectives": "Bonnes, secteur sport en croissance"
+  },
+  {
+    "id": 7,
+    "titre": "Analyste énergie / environnement",
+    "description": "Étudier des données liées à l'énergie ou au climat.",
+    "whatYouDo": "Tu analyses des consommations, des tendances écologiques.",
+    "linkToMissions": ["Mission 4"],
+    "missionsBUTSD": ["Mission 4 : Parle en graphiques"],
+    "outils": ["Python", "Excel", "SQL", "Tableau", "Données énergétiques"],
+    "salaireDebut": "26 000 - 34 000 €",
+    "perspectives": "Très bonnes, transition écologique"
+  },
+  {
+    "id": 8,
+    "titre": "Consultant data",
+    "description": "Aider des entreprises à utiliser leurs données.",
+    "whatYouDo": "Tu expliques les résultats et proposes des solutions.",
+    "linkToMissions": ["Mission 2", "Mission 4"],
+    "missionsBUTSD": ["Mission 2 : Qui va gagner le match ?", "Mission 4 : Parle en graphiques"],
+    "outils": ["Python", "SQL", "Excel", "Tableau", "Power BI"],
+    "salaireDebut": "28 000 - 38 000 €",
+    "perspectives": "Très bonnes, demande croissante"
+  }
+]

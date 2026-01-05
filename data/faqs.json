@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Faut-il être fort en maths pour réussir en BUT Science des Données ?",
+    "reponse": "Pas besoin d'être un génie des maths. Il faut surtout être curieux et prêt à progresser. Les notions sont expliquées pas à pas et appliquées à des cas concrets. On apprend en faisant."
+  },
+  {
+    "question": "Est-ce que je dois déjà savoir programmer ?",
+    "reponse": "Non. Beaucoup d'étudiants commencent sans avoir jamais codé. Le BUT t'apprend progressivement, avec des exemples simples et pratiques."
+  },
+  {
+    "question": "Je suis en bac techno, est-ce que c'est possible ?",
+    "reponse": "Oui. Le BUT Science des Données est accessible après différents bacs. La motivation et la curiosité comptent autant que le parcours."
+  },
+  {
+    "question": "On fait quoi concrètement en cours ?",
+    "reponse": "Tu analyses des données réelles, tu fais des graphiques, tu programmes, tu travailles sur des projets en groupe et tu expliques tes résultats."
+  },
+  {
+    "question": "Est-ce que c'est très théorique ?",
+    "reponse": "Non. La formation est très pratique. Les notions théoriques servent surtout à comprendre ce que tu fais dans les projets."
+  },
+  {
+    "question": "Combien de temps dure le BUT Science des Données ?",
+    "reponse": "Le BUT dure 3 ans et permet d'obtenir un diplôme reconnu, avec la possibilité de continuer les études ou d'entrer dans le monde professionnel."
+  },
+  {
+    "question": "Y a-t-il des stages ?",
+    "reponse": "Oui. Les stages font partie de la formation et permettent de découvrir le monde professionnel et les métiers de la data."
+  },
+  {
+    "question": "Est-ce qu'on travaille en groupe ?",
+    "reponse": "Oui, souvent. Les projets en groupe sont importants pour apprendre à collaborer comme dans une vraie entreprise."
+  },
+  {
+    "question": "Est-ce que c'est difficile ?",
+    "reponse": "C'est exigeant, mais accompagné. Les enseignants sont là pour aider et la progression est pensée pour les débutants."
+  },
+  {
+    "question": "Quelle est la différence avec le BUT Informatique ?",
+    "reponse": "Le BUT Science des Données se concentre sur l'analyse, la compréhension et la valorisation des données, pas sur le développement logiciel pur."
+  },
+  {
+    "question": "Est-ce que je vais faire de l'intelligence artificielle ?",
+    "reponse": "Oui, tu découvriras les bases de l'IA, comme la prédiction, la classification et les systèmes de recommandation."
+  },
+  {
+    "question": "Quels outils utilise-t-on ?",
+    "reponse": "Des outils utilisés dans le monde professionnel : langages de programmation, tableurs avancés, logiciels de visualisation, bases de données."
+  },
+  {
+    "question": "Est-ce qu'on peut continuer ses études après ?",
+    "reponse": "Oui. Beaucoup d'étudiants poursuivent en licence, école d'ingénieur ou master."
+  },
+  {
+    "question": "Est-ce que ce diplôme mène à un emploi ?",
+    "reponse": "Oui. Les compétences en données sont très recherchées dans de nombreux secteurs."
+  },
+  {
+    "question": "Comment savoir si cette formation est faite pour moi ?",
+    "reponse": "Si tu aimes comprendre, analyser, utiliser le numérique et résoudre des problèmes concrets, tu es au bon endroit."
+  }
+]

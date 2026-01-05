@@ -1,0 +1,21 @@
+{
+  "train": [
+    { "text": "Gagne un iPhone gratuitement, clique ici !", "label": "spam" },
+    { "text": "Salut, tu peux m'envoyer le devoir ?", "label": "ham" },
+    { "text": "Offre limitée: -90% aujourd'hui seulement", "label": "spam" },
+    { "text": "On se voit à 17h devant le lycée ?", "label": "ham" },
+    { "text": "Tu as gagné un cadeau, réponds vite", "label": "spam" },
+    { "text": "Merci pour ton aide hier", "label": "ham" }
+  ],
+  "test": [
+    { "text": "Clique vite pour récupérer ton cadeau", "label": "spam" },
+    { "text": "Tu veux réviser ensemble ce week-end ?", "label": "ham" },
+    { "text": "Dernière chance pour profiter de l'offre", "label": "spam" },
+    { "text": "J'arrive dans 5 minutes", "label": "ham" },
+    { "text": "Félicitations, tu es sélectionné !", "label": "spam" }
+  ],
+  "simpleRules": {
+    "spamKeywords": ["gratuit", "clique", "offre", "gagné", "cadeau", "félicitations", "-90%", "chance"],
+    "note": "Approche volontairement simplifiée pour vulgariser le principe de classification."
+  }
+}

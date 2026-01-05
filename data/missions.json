@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "idString": "mission-1",
+    "titre": "Détective des données",
+    "sousTitre": "Nettoyer et fiabiliser un tableau comme un pro",
+    "duree": "6 min",
+    "difficulte": "Débutant",
+    "icone": "detective",
+    "objectif": "Atteindre 100% de qualité des données",
+    "ceQueTuFais": "Repérer des valeurs manquantes, corriger des âges impossibles, supprimer des doublons, atteindre 100% de qualité",
+    "ceQueTuApprends": "En BUT SD, tu apprends à préparer des données avant toute analyse. C'est l'étape n°1 dans tous les projets data.",
+    "whatYouDo": [
+      "Repérer des valeurs manquantes",
+      "Corriger des âges impossibles",
+      "Supprimer des doublons",
+      "Atteindre 100% de qualité"
+    ],
+    "learns": [
+      "Pourquoi une donnée sale fausse tout",
+      "Comment vérifier rapidement un dataset",
+      "Les bases de la préparation de données"
+    ],
+    "competencesBUTSD": ["Nettoyage", "Qualité des données", "Détection d'erreurs"],
+    "metiersLies": ["Data engineer junior", "Chargé d'études statistiques"],
+    "datasetId": "mission1"
+  },
+  {
+    "id": 2,
+    "idString": "mission-2",
+    "titre": "Qui va gagner le match ?",
+    "sousTitre": "Comprendre les stats et faire une mini-prédiction",
+    "duree": "5 min",
+    "difficulte": "Curieux",
+    "icone": "trophy",
+    "objectif": "Comprendre les corrélations et prédire un résultat",
+    "ceQueTuFais": "Comparer des stats (tirs, possession, fautes), faire varier des paramètres, observer l'impact sur un score de victoire",
+    "ceQueTuApprends": "En BUT SD, tu apprends à analyser et expliquer des tendances à partir de chiffres concrets.",
+    "whatYouDo": [
+      "Comparer des stats (tirs, possession, fautes)",
+      "Faire varier des paramètres",
+      "Observer l'impact sur un score de victoire"
+    ],
+    "learns": [
+      "Lire des indicateurs simples",
+      "Relier un facteur à un résultat",
+      "Comprendre l'idée d'un modèle"
+    ],
+    "competencesBUTSD": ["Analyse", "Corrélation", "Décision basée sur les données"],
+    "metiersLies": ["Data Analyst", "Analyste sport", "Consultant data"],
+    "datasetId": "mission2"
+  },
+  {
+    "id": 3,
+    "idString": "mission-3",
+    "titre": "Netflix dans ta tête",
+    "sousTitre": "Construire un système de recommandation simple",
+    "duree": "5 min",
+    "difficulte": "Débutant",
+    "icone": "film",
+    "objectif": "Créer un système de recommandation de films",
+    "ceQueTuFais": "Choisir tes goûts, calculer un score de correspondance, voir des recommandations apparaître",
+    "ceQueTuApprends": "En BUT SD, tu touches aux bases de l'IA et des systèmes de recommandation (comme Spotify/Netflix).",
+    "whatYouDo": [
+      "Choisir tes goûts",
+      "Calculer un score de correspondance",
+      "Voir des recommandations apparaître"
+    ],
+    "learns": [
+      "Pourquoi les applis te recommandent",
+      "Comment une reco peut être calculée",
+      "La notion de similarité"
+    ],
+    "competencesBUTSD": ["Recommandation", "Similarité", "Scoring"],
+    "metiersLies": ["Analyste marketing", "Assistant data scientist"],
+    "datasetId": "mission3"
+  },
+  {
+    "id": 4,
+    "idString": "mission-4",
+    "titre": "Parle en graphiques",
+    "sousTitre": "Choisir le bon graphique et éviter les pièges",
+    "duree": "6 min",
+    "difficulte": "Curieux",
+    "icone": "chart",
+    "objectif": "Choisir le bon graphique pour chaque type de données",
+    "ceQueTuFais": "Choisir entre courbe/barres/camembert, corriger une dataviz trompeuse, créer une visualisation claire",
+    "ceQueTuApprends": "En BUT SD, tu apprends à présenter des résultats pour qu'ils soient compris en 10 secondes.",
+    "whatYouDo": [
+      "Choisir entre courbe/barres/camembert",
+      "Corriger une dataviz trompeuse",
+      "Créer une visualisation claire"
+    ],
+    "learns": [
+      "Un bon graphique = une bonne décision",
+      "Les erreurs fréquentes en dataviz",
+      "Comment rendre un message évident"
+    ],
+    "competencesBUTSD": ["Dataviz", "Storytelling", "Lisibilité"],
+    "metiersLies": ["Data Analyst", "Consultant data", "Analyste énergie / environnement"],
+    "datasetId": "mission4"
+  },
+  {
+    "id": 5,
+    "idString": "mission-5",
+    "titre": "Mini IA anti-spam",
+    "sousTitre": "Classifier des messages comme une mini intelligence artificielle",
+    "duree": "7 min",
+    "difficulte": "Déjà à l'aise",
+    "icone": "shield",
+    "objectif": "Entraîner une mini IA pour classer les messages",
+    "ceQueTuFais": "Étiqueter des messages (spam/pas spam), tester sur de nouveaux messages, observer la précision",
+    "ceQueTuApprends": "En BUT SD, tu découvres les bases de la classification et de l'entraînement de modèles.",
+    "whatYouDo": [
+      "Étiqueter des messages (spam/pas spam)",
+      "Tester sur de nouveaux messages",
+      "Observer la précision"
+    ],
+    "learns": [
+      "Comment une IA apprend via des exemples",
+      "Pourquoi on mesure la précision",
+      "Les limites d'un modèle simple"
+    ],
+    "competencesBUTSD": ["Classification", "IA", "Évaluation"],
+    "metiersLies": ["Assistant data scientist", "Data Analyst"],
+    "datasetId": "mission5"
+  }
+]

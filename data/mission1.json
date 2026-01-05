@@ -1,0 +1,25 @@
+{
+  "columns": ["id", "prenom", "age", "ville", "sport"],
+  "rows": [
+    { "id": 1, "prenom": "Amine", "age": 17, "ville": "Lyon", "sport": "Basket" },
+    { "id": 2, "prenom": "Ines", "age": 16, "ville": "Paris", "sport": "Volley" },
+    { "id": 3, "prenom": "Noah", "age": null, "ville": "Nantes", "sport": "Foot" },
+    { "id": 4, "prenom": "Sarah", "age": 170, "ville": "Lille", "sport": "Badminton" },
+    { "id": 5, "prenom": "Lucas", "age": 15, "ville": "", "sport": "Basket" },
+    { "id": 6, "prenom": "Nadia", "age": 18, "ville": "Marseille", "sport": null },
+    { "id": 7, "prenom": "Amine", "age": 17, "ville": "Lyon", "sport": "Basket" },
+    { "id": 8, "prenom": "Ethan", "age": 14, "ville": "Toulouse", "sport": "Foot" },
+    { "id": 9, "prenom": "Maya", "age": -2, "ville": "Bordeaux", "sport": "Natation" },
+    { "id": 10, "prenom": "Jules", "age": 16, "ville": "Paris", "sport": "Volley" }
+  ],
+  "rules": {
+    "missingValueFields": ["age", "ville", "sport"],
+    "ageValidRange": [12, 25],
+    "duplicateKeyFields": ["prenom", "age", "ville", "sport"]
+  },
+  "tips": [
+    "Une valeur manquante = analyse faussée",
+    "Un doublon = statistiques gonflées",
+    "Un âge impossible = erreur de saisie"
+  ]
+}

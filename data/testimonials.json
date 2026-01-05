@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nom": "Sarah",
+    "annee": "19 ans",
+    "avatar": "👩‍💻",
+    "temoignage": "Je n'avais jamais codé avant le BUT. Aujourd'hui, je sais analyser des données et faire des graphiques clairs.",
+    "bac": ""
+  },
+  {
+    "id": 2,
+    "nom": "Lucas",
+    "annee": "1re année",
+    "avatar": "👨‍💼",
+    "temoignage": "J'aime les projets concrets. Ici, on travaille sur de vrais cas, pas seulement des exercices.",
+    "bac": ""
+  },
+  {
+    "id": 3,
+    "nom": "Nadia",
+    "annee": "2e année",
+    "avatar": "👩‍🔬",
+    "temoignage": "Le BUT m'a aidée à comprendre ce qu'est vraiment la data, sans jargon compliqué.",
+    "bac": ""
+  },
+  {
+    "id": 4,
+    "nom": "Thomas",
+    "annee": "Ancien étudiant",
+    "avatar": "👨‍💻",
+    "temoignage": "Grâce au BUT Science des Données, j'ai trouvé un stage dans l'analyse de données.",
+    "bac": ""
+  }
+]

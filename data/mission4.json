@@ -1,0 +1,58 @@
+{
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "Temps d'écran sur 7 jours",
+      "question": "Quel graphique est le plus adapté ?",
+      "data": [
+        { "day": "Lun", "value": 3.2 },
+        { "day": "Mar", "value": 4.1 },
+        { "day": "Mer", "value": 5.0 },
+        { "day": "Jeu", "value": 4.6 },
+        { "day": "Ven", "value": 6.2 },
+        { "day": "Sam", "value": 7.1 },
+        { "day": "Dim", "value": 5.4 }
+      ],
+      "options": ["Courbe", "Barres", "Camembert"],
+      "correct": "Courbe",
+      "why": "Une courbe est idéale pour voir l'évolution dans le temps."
+    },
+    {
+      "id": "s2",
+      "title": "Répartition des applis utilisées",
+      "question": "Quel graphique est le plus adapté ?",
+      "data": [
+        { "label": "Réseaux", "value": 45 },
+        { "label": "Jeux", "value": 25 },
+        { "label": "Vidéo", "value": 20 },
+        { "label": "Autre", "value": 10 }
+      ],
+      "options": ["Courbe", "Barres", "Camembert"],
+      "correct": "Camembert",
+      "why": "Un camembert peut marcher pour une répartition simple (peu de catégories)."
+    },
+    {
+      "id": "s3",
+      "title": "Comparer deux classes (moyenne)",
+      "question": "Quel graphique est le plus adapté ?",
+      "data": [
+        { "label": "Classe A", "value": 12.4 },
+        { "label": "Classe B", "value": 13.8 }
+      ],
+      "options": ["Courbe", "Barres", "Camembert"],
+      "correct": "Barres",
+      "why": "Les barres sont parfaites pour comparer des valeurs."
+    }
+  ],
+  "trap": {
+    "title": "Graphique trompeur",
+    "badExample": {
+      "description": "Axe Y coupé pour exagérer une différence.",
+      "values": [
+        { "label": "Avant", "value": 49 },
+        { "label": "Après", "value": 52 }
+      ]
+    },
+    "fixTip": "Ne coupe pas l'axe sans le signaler : ça peut manipuler la perception."
+  }
+}
