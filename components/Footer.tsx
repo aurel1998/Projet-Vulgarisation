@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-foreground-muted">
-          <p>© 2024 BUT Science des Données - Projet pédagogique</p>
+          <p>© 2026 BUT Science des Données - Projet pédagogique</p>
         </div>
       </div>
     </footer>
