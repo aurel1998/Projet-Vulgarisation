@@ -71,8 +71,25 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border text-center text-sm text-foreground-muted">
-          <p>© 2026 BUT Science des Données - Projet pédagogique</p>
+        <div className="mt-8 pt-8 border-t border-border">
+          {/* Section Auteurs */}
+          <div className="mb-6">
+            <h4 className="font-semibold text-foreground mb-3 text-center">Équipe de développement</h4>
+            <div className="flex flex-wrap justify-center gap-4 text-sm text-foreground-muted">
+              <span>Aurel SOUSSOUKPO</span>
+              <span>•</span>
+              <span>Mell-Florda OBISSA</span>
+              <span>•</span>
+              <span>Faste-Remède MOUANIA</span>
+              <span>•</span>
+              <span>God-Louange THOMBET</span>
+            </div>
+          </div>
+          
+          {/* Copyright */}
+          <div className="text-center text-sm text-foreground-muted">
+            <p>© 2026 BUT Science des Données - Projet pédagogique</p>
+          </div>
         </div>
       </div>
     </footer>
