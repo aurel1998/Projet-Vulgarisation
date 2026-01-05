@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
@@ -106,16 +106,16 @@ export default function MissionClient({ missionId, mission }: MissionClientProps
     }
   }, [missionId]);
 
-  const calculateQuality = () => {
+  const calculateQuality = useCallback(() => {
     const total = data.length;
     const errors = data.filter(row => row.erreur && !row.corrige).length;
     const qualityScore = total > 0 ? Math.round(((total - errors) / total) * 100) : 0;
     setQuality(qualityScore);
-  };
+  }, [data]);
 
   useEffect(() => {
     calculateQuality();
-  }, [data]);
+  }, [calculateQuality]);
 
   const fixAge = (rowId: number) => {
     const rules = mission1Data.rules;
